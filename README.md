@@ -52,7 +52,6 @@ The workflow integrates: - AWS S3 → dataset storage\
 
     ![Make new bucket](images/make_new_bucket.png)
 
-
 ### Upload Dataset
 
     aws s3 cp AB_NYC_2019.csv s3://your-bucket-name/
