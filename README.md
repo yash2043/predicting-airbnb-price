@@ -50,6 +50,7 @@ The workflow integrates: - AWS S3 → dataset storage\
     aws s3 mb s3://your-bucket-name
 
     ![Make new bucket](../images/make_new_bucket.png)
+    ![Image](images/make_new_bucket.png)
 
 ### Upload Dataset
 
