@@ -52,11 +52,8 @@ The workflow integrates: - AWS S3 → dataset storage\
 
     ![Make new bucket](images/make_new_bucket.png)
 
-<<<<<<< HEAD
-=======
     ![Make new bucket](../images/make_new_bucket.png)
     ![Image](images/make_new_bucket.png)
->>>>>>> d92c895e7ec11df73cf3c35be7767a402c06d810
 
 ### Upload Dataset
 
