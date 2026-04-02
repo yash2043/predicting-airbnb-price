@@ -1,0 +1,17 @@
+# Python
+.env
+
+# Virtual Environments
+venv/
+
+# pycache
+__pycache__/
+
+# MLflow
+mlruns/
+mlflow.db
+mlartifacts/
+*.mlflow
+
+#ML flow artifacts
+*.csv
