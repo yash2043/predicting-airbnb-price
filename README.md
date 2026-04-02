@@ -49,11 +49,15 @@ The workflow integrates: - AWS S3 → dataset storage\
 
     aws s3 mb s3://your-bucket-name
 
-    ![Make new bucket](images/make_new_bucket.png)
+![Make new bucket](images/make_new_bucket.png)
 
 ### Upload Dataset
 
     aws s3 cp AB_NYC_2019.csv s3://your-bucket-name/
+
+![CSV uploaded to AWS](images/csv_uploaded_to_s3_bucket.png)
+
+![AWS console S3 bucket(cloud dashboard view)](images/final_console_screen_shot_of_the_s3_bucket.png)
 
 ------------------------------------------------------------------------
 
@@ -62,6 +66,10 @@ The workflow integrates: - AWS S3 → dataset storage\
 ### Start UI
 
     mlflow ui
+
+![Runs of mlflow](images/runs_of_mlflow_ui.png)
+
+![Models of mlflow](images/models_mlflow_ui.png)
 
 ### Run Project
 
@@ -72,8 +80,16 @@ The workflow integrates: - AWS S3 → dataset storage\
 ## Models
 
 -   Linear Regression\
+
+![Linearregession insights](images/Linearregrssion_insights.png)
+
 -   Random Forest (Best)\
+
+![Randomforest insights](images/random_forest_insights.png)
+
 -   Gradient Boosting
+
+![Gradient Boosting insights](images/gradient_boosting_insights.png)
 
 ------------------------------------------------------------------------
 
@@ -89,7 +105,12 @@ The workflow integrates: - AWS S3 → dataset storage\
 
 ## Best Model
 
-Random Forest performed best with highest R² and lowest RMSE.
+### Random Forest performed best with highest R² and lowest RMSE.
+
+
+## Model Registry
+
+![Model Registry mlflow](images/model_registry_mlflow_ui.png)
 
 ------------------------------------------------------------------------
 
