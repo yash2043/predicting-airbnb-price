@@ -48,8 +48,10 @@ The workflow integrates: - AWS S3 → dataset storage\
 ### Create Bucket
 
     aws s3 mb s3://your-bucket-name
+```md
 
-    ![Make new bucket](images/make new bucket.png)
+    ![Make new bucket](images/make_new_bucket.png)
+
 
 ### Upload Dataset
 
